@@ -21,9 +21,9 @@ int main(int argc, char* argv[])
   // add code below to complete 2.4 for any value of div
   for (int  i = 0; i < 101; i++)
   {
-    if (i % 5 == 0)
+    if (i % div == 0)
       {
-        printf("%d is divisible by %d\n", i, 5);
+        printf("%d is divisible by %d\n", i, div);
       }
   } 
 }
